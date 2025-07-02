@@ -1,0 +1,13 @@
+# SINGLE BROADCASTING :-
+    # AN SINGLE BROADCASTING ARE USE IN A SINGLE DIMENSION ARRAY TO PERFORM SOME TASK AT ONCE.
+    # NOT CHOOSING A SINGLE ELEMENTS AND PERFORM TASKS.
+
+# EXAMPLE :-
+
+import numpy as np
+
+arr = np.array([10,20,30,40,50])
+
+result = arr % 2 == 0
+
+print(result)

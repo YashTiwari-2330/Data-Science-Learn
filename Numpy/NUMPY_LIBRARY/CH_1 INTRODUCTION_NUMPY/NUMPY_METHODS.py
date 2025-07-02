@@ -1,0 +1,40 @@
+# ZERO() METHOD IN NUMPY :-
+
+# USE TO PRINT 0 IN WHOLE ARRAY
+
+import numpy as np
+
+# PRINT ZERO IN ALL ARRAYS AND IT'S USE TO FURTHER INSERT VALUES ,
+# IF YOU INSERT THIS ZERO ARRAYS METHOD , WHEN YOU INSERT VALUES IN ARRAYS AT FUTURE
+array_zero = np.zeros((2,3))
+print(array_zero)
+
+# WHEN YOU ADD ELEMENT 1 IN WHOLE ARRAY
+array_one = np.ones((2,3))
+print(array_one)
+
+
+# IF YOU INSERT YOUR VALUES IN ARRAY SO USING FULL METHODS
+array_full = np.full((2,5) , "yash")
+print(array_full)
+
+# ARRANGE FUNCTION IS LIKE RANGE FUNCTION YOU CAN PASS RANGE AND PRINT ARRAY NUMBER WHAT PASS IN RANGE
+arran = np.arange(0,10,2)
+print(arran)
+
+# A LIN SPACE  ARE USING MAJOR STRING FORMATTED DEFINE IN ARRAYS
+array_lin = np.linspace(0,1,5)
+print(array_lin)
+
+# EYE FUNCTION USE YOU CAN FILL 1  AT INDEX WISE 1 IS FORWARD ONE STEP AT PASSING ARRAYS LENGTH
+array_eye = np.eye(3)
+print(array_eye)
+
+# IF YOU RANDOMLY GET ELEMENTSIN ARRAYS SO USING THIS FUNCTION "RAND(SIZE OF ARRAY)"
+array_random = np.random.rand(3,3)
+print(array_random)
+
+# RAND METHOD GET ANY NUMBERS OF VALUES BUT IF YOU MANULY GET RANDOM VALUES SO USE THIS FUNCTION
+# "RANDINT(LOW , HIGH , SIZE)"
+array_randit = np.random.randint(1,10,8)
+print(array_randit)

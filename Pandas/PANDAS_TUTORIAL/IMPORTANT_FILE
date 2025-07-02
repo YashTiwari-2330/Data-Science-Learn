@@ -1,0 +1,39 @@
+# WHY WE CAN FIRST EXPLORE THE DATA?
+1- Understand the dataset:-
+    -> Firstly you know about data what data say what is currently data files
+2- Identify the problems in data:-
+    -> Secondly identify the problems in data is data is missing or not , if data gave invalid fom
+3- Plan next steps :-
+    -> After You know about data and his problems so you easily do next step what should you perform and do.
+
+
+WHY SUMMARIZE A DATA?
+IN DATA we face 3 type of problems..
+1- You don't know how many columns , rows in data?
+2- You also don't know what types of data you have?
+3- You also don't know how much missing data in dataset.
+
+HERE THE SOLUTION'S OF THIS PROBLEMS
+-> [INFO()] METHOD ARE USE TO SUMMARIZE DATA.
+
+#INFO():- USE OF INFO METHODS
+1- Use info method you know how many number of rows and columns in data
+2- Show about columns name
+3- Show data types [int64 , float64 , string , object]
+4- Also count non null
+5- Know how many memory usage of the data frame.
+
+ONE OF THE POWERFUL METHOD IN PYTHON
+*-> DESCRIBE() :-
+-> A describe methods are use to describe a data into statistic fom and numerical fom.
+
+
+ASK 2 QUESTION TO YOUR SELF BEFORE HANDEL LARGE DATA.
+-> HOW BIG IS YOUR DATASET.
+-> WHAT ARE THE NAMES OF YOUR COLUMNS.
+*-> You find both using (SHAPE AND COLUMNS) METHODS.
+
+STEP 5 :-
+1- Select Specific Columns
+2- Filter Rows
+3- Combine Multiple Conditions
